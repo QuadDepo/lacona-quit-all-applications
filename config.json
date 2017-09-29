@@ -1,1 +1,12 @@
-{}
+{
+  "myCustomPrefs": {
+    "type": "object",
+    "title": "Custom Preferences",
+    "properties": {
+      "whitelisted-apps": {
+        "type": "Array",
+        "default": ["Atom","Lacona", "iTerm"]
+      }
+    }
+  }
+}
